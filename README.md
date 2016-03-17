@@ -4,11 +4,33 @@
 
 ```
 npm i -g elm electron-prebuilt
+npm i -g chokidar-cli
 elm install
 ```
 
-## Run the app
+## Commands
+
+
+Compile the app
 
 ```
-electron main.js
+npm run elm
+```
+
+Watch for changes
+
+```
+npm run elm:watch
+```
+
+Run the app
+
+```
+npm start
+```
+
+Run the app and watch for changes
+
+```
+npm run watch
 ```
